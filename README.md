@@ -4,9 +4,9 @@
 
 ### Things to remember:
 - usually 3 case: 
-- - best case = Ω (Omega)
-- - average case = θ (theta)
-- - - worst case = O (Omicron), a.k.a Big O
+  - best case = Ω (Omega)
+  - average case = θ (theta)
+  - worst case = O (Omicron), a.k.a Big O
 * we only look at the worst case, Big O
 
 - always reduce is, example:
