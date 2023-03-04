@@ -86,3 +86,12 @@ No example yet
 ### No notes on:
 - O (n log n)
 - O (2^n)
+
+## Js Functions:
+array.pop() = O(1)
+array.push() = O(1)
+array.shift() = O(n)
+array.unshift() = O(n)
+
+*shift and unshift (add or remove from the start of and array) are linear because the array needs to be reindexed
+
