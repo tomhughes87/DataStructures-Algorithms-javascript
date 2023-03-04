@@ -52,5 +52,30 @@ for (let i = 0; i < arr.length; i++){
 
 // output: 00,01,02,03,04,10,11,12...43, 44
 ```
-*this loops through an array of 5 items, so it will run 5 times.
+*this loops through an array of 5 items x 5 items, so it will run 25 times.
+
+
+## O(n!) 
+### a.k.a n Factoria (terrible)
+Something like a double nested for loop.
+loops through the array .. and then for each item it loops through every item the array again!... and then again!
+
+* This is rare unless you are trying to write bad code.
+
+
+
+
+## O(1) 
+### a.k.a constant (the fastest)
+Something that will always take the same amount of time, regardless of how big the dataset gets.
+
+```js
+const arr = [0,1,2,3,4]
+
+console.log(arr[3])
+
+// output: 3
+```
+
+
 
