@@ -83,4 +83,6 @@ No example yet
 // output: 
 ```
 
-
+### No notes on:
+- O (n log n)
+- O (2^n)
