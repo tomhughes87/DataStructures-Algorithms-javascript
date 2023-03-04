@@ -9,7 +9,7 @@
   - worst case = O (Omicron), a.k.a Big O
 * we only look at the worst case, Big O
 
-- always reduce is, example:
+- always reduce it, example:
 If there is a linear for loop, O(n) and a contant, O(1) in the same algorythm. Don't write O(1n), reduce it to the worst (hightest) value, O(n)
 
 
@@ -64,7 +64,7 @@ loops through the array .. and then for each item it loops through every item th
 
 
 ### O(1) 
-#### a.k.a constant (the fastest)
+#### a.k.a Constant (the fastest)
 Something that will always take the same amount of time, regardless of how big the dataset gets.
 
 ```js
@@ -75,5 +75,12 @@ console.log(arr[3])
 // output: 3
 ```
 
+### O(log n)
+#### a.k.a Logarithmic 
+Some that as it loops through an array, it halves each loop, speeding up the loop much more than O(n) 
+```js
+No example yet
+// output: 
+```
 
 
