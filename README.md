@@ -15,8 +15,8 @@ If there is a linear for loop, O(n) and a contant, O(1) in the same algorythm. D
 
 ![image](https://user-images.githubusercontent.com/91187363/222923608-1e39c183-6e27-460f-baff-ce36995b15e9.png)
 
-## O(n) 
-### a.k.a Linear
+### O(n) 
+#### a.k.a Linear
 Something like a for loop.
 The longer the array, the longer the process will take.
 eg. 
@@ -35,8 +35,8 @@ for (let i = 0; i < arr.length; i++){
 
 
 
-## O(n^2) 
-### a.k.a quadratic
+### O(n^2) 
+#### a.k.a quadratic
 Something like a nested for loop.
 loops through the array .. and then for each item it loops through every item the array again!
 eg. 
@@ -55,18 +55,16 @@ for (let i = 0; i < arr.length; i++){
 *this loops through an array of 5 items x 5 items, so it will run 25 times.
 
 
-## O(n!) 
-### a.k.a n Factoria (terrible)
+### O(n!) 
+#### a.k.a n Factoria (terrible)
 Something like a double nested for loop.
 loops through the array .. and then for each item it loops through every item the array again!... and then again!
 
 * This is rare unless you are trying to write bad code.
 
 
-
-
-## O(1) 
-### a.k.a constant (the fastest)
+### O(1) 
+#### a.k.a constant (the fastest)
 Something that will always take the same amount of time, regardless of how big the dataset gets.
 
 ```js
