@@ -83,6 +83,28 @@ No example yet
 // output: 
 ```
 
+### Multiple params:
+if 2 different arrays are passed in and used, we can't use use n, example
+```js
+function loopingTest(a,b){
+  
+  for (let i = 0; i < a.length; i++){
+    console.log(a[i])
+  }
+
+  for (let i = 0; i < b.length; i++){
+    console.log(b[i])
+  }
+
+}
+
+This is:
+O (a * b)... i think
+
+```
+- O (2^n)
+
+
 ### No notes on:
 - O (n log n)
 - O (2^n)
