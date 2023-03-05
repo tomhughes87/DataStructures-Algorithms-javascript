@@ -236,7 +236,7 @@ the datastructure of a linked list:
   
 - insert/ remove (add to or remove from the middle)
   - you need to count through the entire list
-  *O(n)
+  *O(n)* for both value or index 
 
   
 
