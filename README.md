@@ -168,7 +168,7 @@ console.log(thing2.word)
 ```
 * when thing2 was created it just copied the value, it didn't track any changes etc.
 
-#### Array vs Linked List:
+## Array vs Linked List:
 ### Array:
 *Memory:
 ```
@@ -186,6 +186,7 @@ console.log(thing2.word)
 [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
 ```
 
+## Linked List:
 *Memory with linked list in it, the items and not stored or indexed in any order. 
 BUT there is a "head"(0) and a tail(4)*
 - the head and tail are points and point to the reference memory spot, not to the value
@@ -195,3 +196,27 @@ BUT there is a "head"(0) and a tail(4)*
 [ ] [ ] [ ] [0] [ ] [ ] [ ] [ ]
 [ ] [ ] [ ] [ ] [ ] [ ] [3] [ ]
 ```
+
+
+the datastructure of a linked list:
+```js
+{head: {
+        value: 0,
+        next: {
+              value: 1,
+              next: {
+                    value: 2,
+                    next: {
+                        value: 3,
+                        next: null
+                        }
+                    }
+              }
+          }
+  }
+  ```
+
+
+```
+
+- push. to 
