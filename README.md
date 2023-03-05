@@ -190,6 +190,8 @@ console.log(thing2.word)
 *Memory with linked list in it, the items and not stored or indexed in any order. 
 BUT there is a "head"(0) and a tail(4)*
 - the head and tail are points and point to the reference memory spot, not to the value
+- each item has a value and a "next" that points to the next item in the list
+- node is the key word
 ```
 [ ] [ ] [ ] [ ] [2] [ ] [ ] [ ]
 [ ] [1] [ ] [ ] [ ] [ ] [ ] [ ]
@@ -215,8 +217,11 @@ the datastructure of a linked list:
           }
   }
   ```
+### Linked Lists functions:
+- push (adding to the end)
+  - make a new node (add a value and next:null)
+  - change the tail pointer from the linked list to focus on the new node
+  - the previous tails "next" value should now equal the new node
+  -  * O(1)
 
 
-```
-
-- push. to 
