@@ -239,5 +239,15 @@ the datastructure of a linked list:
   *O(n)* for both value or index 
 
   
+![image](https://user-images.githubusercontent.com/91187363/222958672-bf4913a5-9c33-4e19-ad95-5eeacd12e698.png)
+
+array better for:
+- pop
+- push
+- lookup by index
+
+linked list better for:
+- shift
+- unshift
 
 
