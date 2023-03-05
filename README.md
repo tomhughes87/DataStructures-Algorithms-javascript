@@ -121,3 +121,12 @@ array.unshift() = O(n)
 
 *shift and unshift (add or remove from the start of and array) are linear because the array needs to be reindexed
 
+## Space & Time:
+### Space:
+Memory
+
+### Time:
+How long it takes (how many times it will process)
+
+
+
