@@ -243,7 +243,6 @@ the datastructure of a linked list:
 
 array better for:
 - pop
-- push
 - lookup by index
 
 linked list better for:
