@@ -166,7 +166,12 @@ console.log(thing2.word)
 // bye
 
 ```
-* when thing2 was created it just copied the value, it didn't track any changes etc.
+*when thing2 was created it just copied the value, it didn't track any changes etc.
+
+## Garbage Collection
+
+when removing pointers, it's possible to lose access to objects stored in memory but they'd still take up space.
+JS has 'garbage collection' which clears up data like this that runs at intervals
 
 ## Array vs Linked List:
 ### Array:
@@ -222,6 +227,17 @@ the datastructure of a linked list:
   - make a new node (add a value and next:null)
   - change the tail pointer from the linked list to focus on the new node
   - the previous tails "next" value should now equal the new node
-  -  * O(1)
+  *O(1)*
+
+- pop (remove from end of list)
+  - deleting the last element is O(1)
+  - But to set the tail pointer, we must go through the list
+  *O(n)*
+  
+- insert/ remove (add to or remove from the middle)
+  - you need to count through the entire list
+  *O(n)
+
+  
 
 
