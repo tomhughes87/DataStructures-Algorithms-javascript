@@ -129,4 +129,42 @@ Memory
 How long it takes (how many times it will process)
 
 
+## Classes for a dataset:
+Reason for using classes on a dataset:
+- the methods can be for insert, add, remove, edit, etc
+
+## Pointers:
+A pointer is referencing the object in memory,rather than just copying the value. Example:
+
+#### non-pointer:
+``` js
+
+const thing1 = "hi"
+const thing2 = thing1
+thing1="bye"
+
+console.log(thing1) 
+// bye
+
+console.log(thing2) 
+// hi
+
+```
+* when thing2 was created it just copied the value, it didn't track any changes etc.
+
+#### pointer:
+``` js
+
+const thing1 = {word:"hi"}
+const thing2 = thing1
+thing1.word="bye"
+
+console.log(thing1.word) 
+// bye
+
+console.log(thing2.word) 
+// bye
+
+```
+* when thing2 was created it just copied the value, it didn't track any changes etc.
 
