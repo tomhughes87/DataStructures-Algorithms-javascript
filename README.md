@@ -168,3 +168,30 @@ console.log(thing2.word)
 ```
 * when thing2 was created it just copied the value, it didn't track any changes etc.
 
+#### Array vs Linked List:
+### Array:
+*Memory:
+```
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+```
+
+*Memory with array in it, all together and indexed in order:
+```
+[ ] [ ] [0] [1] [2] [3] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ]
+```
+
+*Memory with linked list in it, the items and not stored or indexed in any order. 
+BUT there is a "head"(0) and a tail(4)*
+- the head and tail are points and point to the reference memory spot, not to the value
+```
+[ ] [ ] [ ] [ ] [2] [ ] [ ] [ ]
+[ ] [1] [ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [0] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ] [3] [ ]
+```
